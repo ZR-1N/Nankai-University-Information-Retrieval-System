@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}网页快照 - {{ doc_id }}{% endblock %}
+
+{% block content %}
+<div class="mb-3">
+    <a href="javascript:history.back()" class="btn btn-outline-secondary btn-sm">
+        <i class="bi bi-arrow-left"></i> 返回
+    </a>
+    <span class="ms-3 text-muted small">这是网页快照，内容为爬取时的状态。</span>
+</div>
+
+<div class="card">
+    <div class="card-header bg-light">
+        <strong><i class="bi bi-camera"></i> 网页快照: {{ doc_id }}</strong>
+        <span class="text-muted small ms-3">快照时间: {{ crawl_time if crawl_time else '未知' }}</span>
+    </div>
+    <div class="card-body">
+        {% if content %}
+        <div class="snapshot-content">
+            {{ content | safe }}
+        </div>
+        {% else %}
+        <div class="alert alert-warning">快照内容为空或不存在。</div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

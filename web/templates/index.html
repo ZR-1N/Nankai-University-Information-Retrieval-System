@@ -1,0 +1,216 @@
+{% extends "base.html" %}
+{% block title %}南开大学信息检索系统 - 首页{% endblock %}
+
+{% block extra_head %}
+<style>
+    .search-container {
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-box-wrapper {
+        width: 100%;
+        max-width: 680px;
+        position: relative;
+    }
+    .search-input {
+        width: 100%;
+        padding: 14px 50px 14px 20px;
+        font-size: 18px;
+        border: 2px solid #dfe1e5;
+        border-radius: 28px;
+        outline: none;
+        transition: box-shadow 0.2s, border-color 0.2s;
+    }
+    .search-input:focus {
+        border-color: #6c2c8f;
+        box-shadow: 0 2px 12px rgba(108, 44, 143, 0.15);
+    }
+    .search-btn {
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        font-size: 20px;
+        color: #6c2c8f;
+        cursor: pointer;
+    }
+    .suggest-dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        border: 1px solid #dfe1e5;
+        border-radius: 0 0 12px 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        z-index: 1000;
+        display: none;
+        margin-top: 4px;
+        overflow: hidden;
+    }
+    .suggest-item {
+        padding: 10px 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: background 0.15s;
+    }
+    .suggest-item:hover, .suggest-item.active {
+        background: #f5f0f8;
+    }
+    .suggest-item .suggest-type {
+        font-size: 11px;
+        color: #999;
+        background: #f0f0f0;
+        padding: 1px 6px;
+        border-radius: 3px;
+    }
+    .logo-text {
+        font-size: 52px;
+        font-weight: 700;
+        color: #6c2c8f;
+        margin-bottom: 24px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .logo-subtitle {
+        font-size: 16px;
+        color: #888;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .options-bar {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 16px;
+    }
+    .stats-bar {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .stat-item {
+        text-align: center;
+        padding: 12px 20px;
+        background: #f8f9fa;
+        border-radius: 12px;
+        min-width: 100px;
+    }
+    .stat-number {
+        font-size: 24px;
+        font-weight: 700;
+        color: #6c2c8f;
+    }
+    .stat-label {
+        font-size: 12px;
+        color: #888;
+        margin-top: 4px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="search-container">
+    <div class="search-box-wrapper">
+        <div class="logo-text">
+            <i class="bi bi-search" style="font-size: 44px;"></i> 南开检索
+        </div>
+        <div class="logo-subtitle">基于南开大学多源网站资源的校内信息检索系统</div>
+
+        {% if error %}
+        <div class="alert alert-warning">{{ error }}</div>
+        {% endif %}
+
+        <!-- 搜索表单 -->
+        <form action="/search" method="GET" id="search-form">
+            <div style="position: relative;">
+                <input type="text" name="q" id="search-input"
+                       class="search-input"
+                       placeholder="输入关键词搜索南开大学相关资源..."
+                       autocomplete="off"
+                       autofocus>
+                <button type="submit" class="search-btn" title="搜索">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+
+            <!-- 搜索联想下拉 -->
+            <div class="suggest-dropdown" id="suggest-dropdown"></div>
+
+            <!-- 搜索选项 -->
+            <div class="options-bar">
+                <select name="type" class="form-select" style="width: auto; display: inline;">
+                    <option value="normal">普通查询</option>
+                    <option value="exact">精确查询</option>
+                    <option value="multi">多关键词查询</option>
+                    <option value="wildcard">通配查询</option>
+                    <option value="fuzzy">模糊查询</option>
+                    <option value="doc">文档查询</option>
+                </select>
+
+                <select name="user_id" class="form-select" style="width: auto; display: inline;">
+                    {% for p in profiles %}
+                    <option value="{{ p.id }}" {% if p.id == 'default' %}selected{% endif %}>
+                        {{ p.name }}
+                    </option>
+                    {% endfor %}
+                </select>
+
+                <select name="match_mode" class="form-select" style="width: auto; display: inline;" id="match-mode">
+                    <option value="or">任一关键词匹配</option>
+                    <option value="and">所有关键词匹配</option>
+                </select>
+            </div>
+        </form>
+
+        <!-- 统计概览 -->
+        {% if stats %}
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-number">{{ stats.get('total_docs', 0) | int }}</div>
+                <div class="stat-label">总文档数</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">{{ stats.get('html_pages', 0) | int }}</div>
+                <div class="stat-label">HTML 页面</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">{{ stats.get('pdf_files', 0) | int }}</div>
+                <div class="stat-label">PDF 文档</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">{{ stats.get('doc_files', 0) + stats.get('docx_files', 0) }}</div>
+                <div class="stat-label">Word 文档</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">{{ stats.get('xls_files', 0) + stats.get('xlsx_files', 0) }}</div>
+                <div class="stat-label">Excel 文档</div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- 热门查询 -->
+        <div class="mt-3 text-center">
+            <small class="text-muted">试试搜索：</small>
+            <a href="/search?q=南开大学&type=normal" class="badge bg-light text-dark text-decoration-none me-1">南开大学</a>
+            <a href="/search?q=奖学金 申请&type=multi" class="badge bg-light text-dark text-decoration-none me-1">奖学金 申请</a>
+            <a href="/search?q=人工智能&type=normal" class="badge bg-light text-dark text-decoration-none me-1">人工智能</a>
+            <a href="/search?q=研究生 复试&type=multi" class="badge bg-light text-dark text-decoration-none me-1">研究生 复试</a>
+            <a href="/search?q=南开*&type=wildcard" class="badge bg-light text-dark text-decoration-none me-1">南开*</a>
+            <a href="/search?q=202?年&type=wildcard" class="badge bg-light text-dark text-decoration-none">202?年</a>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/suggest.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% block title %}查询日志{% endblock %}
+
+{% block content %}
+<h2 class="mb-4"><i class="bi bi-journal-text"></i> 查询日志</h2>
+
+<div class="row">
+    <div class="col-md-9">
+        <!-- 筛选 -->
+        <div class="card mb-3">
+            <div class="card-body d-flex gap-3 align-items-center flex-wrap">
+                <span class="fw-semibold">筛选用户:</span>
+                <a href="/logs" class="btn btn-sm {% if not user_filter %}btn-primary{% else %}btn-outline-secondary{% endif %}">全部</a>
+                {% for u in all_users %}
+                <a href="/logs?user_id={{ u }}" class="btn btn-sm {% if user_filter == u %}btn-primary{% else %}btn-outline-secondary{% endif %}">{{ u }}</a>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- 日志表格 -->
+        <div class="card">
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>ID</th>
+                                <th>用户</th>
+                                <th>查询词</th>
+                                <th>查询类型</th>
+                                <th>结果数</th>
+                                <th>时间</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for log in logs %}
+                            <tr>
+                                <td class="text-muted small">{{ log.id }}</td>
+                                <td><span class="badge bg-info">{{ log.user_id }}</span></td>
+                                <td>
+                                    <a href="/search?q={{ log.query }}&type={{ log.search_type }}" class="text-decoration-none">
+                                        {{ log.query }}
+                                    </a>
+                                </td>
+                                <td>
+                                    {% if log.search_type == 'normal' %}
+                                    <span class="badge bg-secondary">普通</span>
+                                    {% elif log.search_type == 'exact' %}
+                                    <span class="badge bg-primary">精确</span>
+                                    {% elif log.search_type == 'multi' %}
+                                    <span class="badge bg-success">多关键词</span>
+                                    {% elif log.search_type == 'wildcard' %}
+                                    <span class="badge bg-warning text-dark">通配</span>
+                                    {% elif log.search_type == 'fuzzy' %}
+                                    <span class="badge bg-info">模糊</span>
+                                    {% elif log.search_type == 'doc' %}
+                                    <span class="badge bg-dark">文档</span>
+                                    {% else %}
+                                    <span class="badge bg-light text-dark">{{ log.search_type }}</span>
+                                    {% endif %}
+                                </td>
+                                <td>{{ log.result_count }}</td>
+                                <td class="text-muted small">{{ log.search_time }}</td>
+                            </tr>
+                            {% endfor %}
+                            {% if not logs %}
+                            <tr>
+                                <td colspan="6" class="text-center text-muted py-4">暂无查询日志</td>
+                            </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- 分页 -->
+        {% if total_pages > 1 %}
+        <nav class="mt-3">
+            <ul class="pagination justify-content-center">
+                {% if page > 1 %}
+                <li class="page-item">
+                    <a class="page-link" href="/logs?page={{ page - 1 }}{% if user_filter %}&user_id={{ user_filter }}{% endif %}">上一页</a>
+                </li>
+                {% endif %}
+                <li class="page-item disabled"><span class="page-link">第 {{ page }} / {{ total_pages }} 页 (共 {{ total_count }} 条)</span></li>
+                {% if page < total_pages %}
+                <li class="page-item">
+                    <a class="page-link" href="/logs?page={{ page + 1 }}{% if user_filter %}&user_id={{ user_filter }}{% endif %}">下一页</a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+    </div>
+
+    <!-- 右侧热门查询 -->
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-header bg-white">
+                <strong><i class="bi bi-fire"></i> 热门查询</strong>
+            </div>
+            <div class="card-body p-0">
+                <ul class="list-group list-group-flush">
+                    {% for pq in popular %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a href="/search?q={{ pq.query }}" class="text-decoration-none">{{ pq.query }}</a>
+                        <span class="badge bg-primary rounded-pill">{{ pq.cnt }}</span>
+                    </li>
+                    {% endfor %}
+                    {% if not popular %}
+                    <li class="list-group-item text-muted text-center">暂无数据</li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header bg-white">
+                <strong><i class="bi bi-info-circle"></i> 关于查询日志</strong>
+            </div>
+            <div class="card-body small text-muted">
+                <p>系统自动记录每次搜索的：</p>
+                <ul>
+                    <li>用户 ID</li>
+                    <li>查询词</li>
+                    <li>查询类型</li>
+                    <li>查询时间</li>
+                    <li>返回结果数量</li>
+                </ul>
+                <p>日志存储在 SQLite 数据库中。</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

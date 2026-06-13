@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}爬取状态 - 南开检索{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="mb-4"><i class="bi bi-robot"></i> 爬取状态</h2>
+
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card text-center border-primary">
+                <div class="card-body">
+                    <h1 class="text-primary">{{ stats.get('total_docs', 0) }}</h1>
+                    <small class="text-muted">已爬取文档总数</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center border-success">
+                <div class="card-body">
+                    <h1 class="text-success">{{ stats.get('html_pages', 0) }}</h1>
+                    <small class="text-muted">HTML 页面</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center border-info">
+                <div class="card-body">
+                    <h1 class="text-info">{{ stats.get('pdf_files', 0) + stats.get('doc_files', 0) + stats.get('docx_files', 0) + stats.get('xls_files', 0) + stats.get('xlsx_files', 0) }}</h1>
+                    <small class="text-muted">文档附件</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center border-warning">
+                <div class="card-body">
+                    <h1 class="{% if stats.get('failed_urls', 0) > 100 %}text-danger{% else %}text-warning{% endif %}">{{ stats.get('failed_urls', 0) }}</h1>
+                    <small class="text-muted">失败 URL</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-3">
+                <div class="card-header"><strong><i class="bi bi-info-circle"></i> 爬取配置</strong></div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <tr><td>均衡模式</td><td><span class="badge {% if stats.get('balanced_mode') %}bg-success{% else %}bg-secondary{% endif %}">{{ '已启用' if stats.get('balanced_mode') else '已关闭' }}</span></td></tr>
+                        <tr><td>重复 URL</td><td>{{ stats.get('duplicate_urls', 0) }}</td></tr>
+                        <tr><td>归档文件</td><td>{{ stats.get('zip_files', 0) }} (ZIP/RAR)</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-3">
+                <div class="card-header"><strong><i class="bi bi-file-earmark"></i> 文档附件详情</strong></div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <tr><td>PDF</td><td><span class="badge bg-danger">{{ stats.get('pdf_files', 0) }}</span></td></tr>
+                        <tr><td>DOC</td><td><span class="badge bg-primary">{{ stats.get('doc_files', 0) }}</span></td></tr>
+                        <tr><td>DOCX</td><td><span class="badge bg-primary">{{ stats.get('docx_files', 0) }}</span></td></tr>
+                        <tr><td>XLS</td><td><span class="badge bg-success">{{ stats.get('xls_files', 0) }}</span></td></tr>
+                        <tr><td>XLSX</td><td><span class="badge bg-success">{{ stats.get('xlsx_files', 0) }}</span></td></tr>
+                        <tr><td>ZIP/RAR</td><td><span class="badge bg-warning text-dark">{{ stats.get('zip_files', 0) }}</span></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 来源分布 -->
+    <div class="card mb-3">
+        <div class="card-header"><strong><i class="bi bi-globe"></i> 来源分布</strong></div>
+        <div class="card-body">
+            <table class="table table-sm">
+                <thead><tr><th>来源</th><th>数量</th><th>占比</th></tr></thead>
+                <tbody>
+                {% set sources = stats.get('source_sites', {}) %}
+                {% set total = stats.get('total_docs', 1) %}
+                {% for site, count in sources.items() | sort(attribute='1', reverse=True) %}
+                <tr>
+                    <td>{{ site }}</td>
+                    <td>{{ count }}</td>
+                    <td>{{ "%.1f"|format(count / total * 100) }}%</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="text-muted small">
+        <a href="/stats" class="me-3">查看数据统计</a>
+        <a href="/logs">查看查询日志</a>
+        <a href="/">返回首页</a>
+    </div>
+</div>
+{% endblock %}

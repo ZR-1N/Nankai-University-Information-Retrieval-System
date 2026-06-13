@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+{% block title %}数据统计 - 南开检索{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="mb-4"><i class="bi bi-bar-chart-fill"></i> 数据统计</h2>
+
+    <!-- 概览卡片 -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card text-center border-primary">
+                <div class="card-body">
+                    <h1 class="text-primary">{{ stats.get('total_docs', 0) }}</h1>
+                    <small class="text-muted">爬取文档总数</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center border-success">
+                <div class="card-body">
+                    <h1 class="text-success">{{ stats.get('index_docs', 0) }}</h1>
+                    <small class="text-muted">已索引文档</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center border-info">
+                <div class="card-body">
+                    <h1 class="text-info">{{ stats.get('index_terms', 0) }}</h1>
+                    <small class="text-muted">倒排索引词条数</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center border-warning">
+                <div class="card-body">
+                    <h1 class="text-warning">{{ stats.get('search_count', 0) }}</h1>
+                    <small class="text-muted">累计搜索次数</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 文件类型分布 -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header"><strong><i class="bi bi-file-earmark"></i> 文件类型分布</strong></div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <thead><tr><th>类型</th><th>数量</th><th>占比</th></tr></thead>
+                        <tbody>
+                        {% set file_types = stats.get('file_types', {}) %}
+                        {% set total = stats.get('total_docs', 1) %}
+                        {% for ft, count in file_types.items() | sort(attribute='1', reverse=True) %}
+                        <tr>
+                            <td><span class="badge bg-secondary">{{ ft.upper() }}</span></td>
+                            <td>{{ count }}</td>
+                            <td>{{ "%.1f"|format(count / total * 100) }}%</td>
+                        </tr>
+                        {% endfor %}
+                        {% if not file_types %}
+                        <tr><td colspan="3" class="text-muted">暂无数据</td></tr>
+                        {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header"><strong><i class="bi bi-diagram-3"></i> 页面角色分布</strong></div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <thead><tr><th>角色</th><th>数量</th><th>占比</th></tr></thead>
+                        <tbody>
+                        {% set page_roles = stats.get('page_roles', {}) %}
+                        {% set total = stats.get('total_docs', 1) %}
+                        {% for role, count in page_roles.items() | sort(attribute='1', reverse=True) %}
+                        <tr>
+                            <td><span class="badge bg-info">{{ role }}</span></td>
+                            <td>{{ count }}</td>
+                            <td>{{ "%.1f"|format(count / total * 100) }}%</td>
+                        </tr>
+                        {% endfor %}
+                        {% if not page_roles %}
+                        <tr><td colspan="3" class="text-muted">暂无数据</td></tr>
+                        {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 来源分布 -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header"><strong><i class="bi bi-globe"></i> 来源网站分布</strong></div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <thead><tr><th>来源</th><th>数量</th><th>占比</th></tr></thead>
+                        <tbody>
+                        {% set sources = stats.get('source_sites', {}) %}
+                        {% set total = stats.get('total_docs', 1) %}
+                        {% for site, count in sources.items() | sort(attribute='1', reverse=True) %}
+                        <tr {% if count / total > 0.35 %}class="table-warning"{% endif %}>
+                            <td>{{ site }}</td>
+                            <td>{{ count }}</td>
+                            <td>{{ "%.1f"|format(count / total * 100) }}%
+                                {% if count / total > 0.35 %}<span class="badge bg-warning text-dark ms-1">⚠ 超过35%</span>{% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 数据质量验证 -->
+    {% if stats.get('validation') %}
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header"><strong><i class="bi bi-check-circle"></i> 数据质量报告</strong></div>
+                <div class="card-body">
+                    {% set v = stats.validation %}
+                    <table class="table table-sm">
+                        <tr><td>总文档数</td><td><strong>{{ v.get('total_docs', 0) }}</strong></td></tr>
+                        <tr><td>无标题</td><td>{{ v.get('no_title', 0) }} ({{ "%.1f"|format(v.get('no_title_pct', 0)) }}%)</td></tr>
+                        <tr><td>空正文</td><td>{{ v.get('empty_content', 0) }} ({{ "%.1f"|format(v.get('empty_content_pct', 0)) }}%)</td></tr>
+                        <tr><td>短正文 (&lt;100字)</td><td>{{ v.get('short_content', 0) }} ({{ "%.1f"|format(v.get('short_content_pct', 0)) }}%)</td></tr>
+                        <tr><td>平均正文长度</td><td>{{ v.get('avg_content_length', 0) }} 字符</td></tr>
+                        <tr><td>最大来源占比</td><td>{{ v.get('max_source_site', '?') }} ({{ "%.1f"|format(v.get('max_source_pct', 0)) }}%)</td></tr>
+                        <tr><td>Document 数量</td><td><strong>{{ v.get('document_count', 0) }}</strong></td></tr>
+                        <tr><td>nav_noise 数量</td><td>{{ v.get('nav_noise_count', 0) }}</td></tr>
+                        <tr><td>content_quality good</td><td>{{ v.get('content_quality', {}).get('good', 0) }}</td></tr>
+                    </table>
+
+                    {% if v.get('warnings') %}
+                    <div class="alert alert-warning mt-2">
+                        <strong>⚠ 警告:</strong>
+                        <ul class="mb-0">
+                        {% for w in v.warnings %}
+                            <li>{{ w }}</li>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="text-muted small">
+        <a href="/crawl-status" class="me-3">查看爬取状态</a>
+        <a href="/logs">查看查询日志</a>
+    </div>
+</div>
+{% endblock %}

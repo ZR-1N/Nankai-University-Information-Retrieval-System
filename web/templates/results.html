@@ -1,0 +1,289 @@
+{% extends "base.html" %}
+{% block title %}{{ query }} - 搜索结果{% endblock %}
+
+{% block content %}
+<div class="row">
+    <!-- 左侧筛选栏 -->
+    <div class="col-md-3">
+        <div class="card mb-3">
+            <div class="card-header bg-white">
+                <strong><i class="bi bi-funnel"></i> 筛选条件</strong>
+            </div>
+            <div class="card-body">
+                <form id="filter-form" action="/search" method="GET">
+                    <input type="hidden" name="q" value="{{ query }}">
+                    <input type="hidden" name="type" value="{{ search_type }}">
+                    <input type="hidden" name="user_id" value="{{ user_id }}">
+                    <input type="hidden" name="match_mode" value="{{ match_mode }}">
+
+                    <!-- 来源筛选 -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold small">来源网站</label>
+                        <select name="source" class="form-select form-select-sm" onchange="this.form.submit()">
+                            <option value="">全部来源</option>
+                            {% for s in sources %}
+                            <option value="{{ s }}" {% if filters.get('source') == s %}selected{% endif %}>{{ s }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- 文档类型筛选 -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold small">文档类型</label>
+                        <select name="file_type" class="form-select form-select-sm" onchange="this.form.submit()">
+                            <option value="">全部类型</option>
+                            {% for ft in file_types %}
+                            <option value="{{ ft }}" {% if filters.get('file_type') == ft %}selected{% endif %}>{{ ft.upper() }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- 时间筛选 -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold small">起始日期</label>
+                        <input type="date" name="date_from" class="form-control form-control-sm"
+                               value="{{ filters.get('date_from', '') }}">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold small">截止日期</label>
+                        <input type="date" name="date_to" class="form-control form-control-sm"
+                               value="{{ filters.get('date_to', '') }}">
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-outline-primary w-100">应用筛选</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- 搜索设置 -->
+        <div class="card mb-3">
+            <div class="card-header bg-white">
+                <strong><i class="bi bi-gear"></i> 搜索设置</strong>
+            </div>
+            <div class="card-body small">
+                <p class="mb-1"><strong>当前画像:</strong> {{ results.get('user_profile_name', '默认用户') }}</p>
+                <p class="mb-1"><strong>查询类型:</strong>
+                    {% if search_type == 'normal' %}普通查询
+                    {% elif search_type == 'exact' %}精确查询
+                    {% elif search_type == 'multi' %}多关键词查询
+                    {% elif search_type == 'wildcard' %}通配查询
+                    {% elif search_type == 'fuzzy' %}模糊查询
+                    {% elif search_type == 'doc' %}文档查询
+                    {% endif %}
+                </p>
+                <p class="mb-1"><strong>匹配模式:</strong>
+                    {% if match_mode == 'and' %}所有词匹配{% else %}任一词匹配{% endif %}
+                </p>
+                {% if results.get('fuzzy_expansions') %}
+                <p class="mb-1"><strong>模糊扩展:</strong>
+                    {% for term in results.fuzzy_expansions[:5] %}
+                    <span class="badge bg-info">{{ term }}</span>
+                    {% endfor %}
+                </p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- 右侧搜索结果 -->
+    <div class="col-md-9">
+        <!-- 搜索框 -->
+        <div class="search-bar mb-3">
+            <form action="/search" method="GET" id="search-form-inline">
+                <div class="input-group" style="position: relative;">
+                    <input type="text" name="q" id="search-input-inline"
+                           class="form-control" value="{{ query }}"
+                           placeholder="搜索..." autocomplete="off">
+                    <input type="hidden" name="type" value="{{ search_type }}">
+                    <input type="hidden" name="user_id" value="{{ user_id }}">
+                    <input type="hidden" name="match_mode" value="{{ match_mode }}">
+                    <button class="btn btn-primary" type="submit">
+                        <i class="bi bi-search"></i> 搜索
+                    </button>
+                </div>
+                <div class="suggest-dropdown" id="suggest-dropdown-inline"></div>
+            </form>
+        </div>
+
+        {% if error %}
+        <div class="alert alert-warning">
+            <i class="bi bi-exclamation-triangle"></i> {{ error }}
+            请先运行 <code>python run.py crawl --limit 100</code> 和 <code>python run.py build-index</code>
+        </div>
+        {% else %}
+
+        <!-- 结果统计 -->
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <span class="text-muted">
+                    找到约 <strong>{{ results.total }}</strong> 条结果
+                    （耗时 {{ results.elapsed }} 秒）
+                </span>
+                {% if results.matched_terms %}
+                <br><small class="text-muted">匹配词:
+                    {% for term in results.matched_terms[:10] %}
+                    <span class="badge bg-light text-dark">{{ term }}</span>
+                    {% endfor %}
+                </small>
+                {% endif %}
+            </div>
+            <div class="btn-group">
+                <a href="/search?q={{ query }}&type={{ search_type }}&user_id={{ user_id }}&match_mode={{ match_mode }}" class="btn btn-sm btn-outline-secondary">按相关性</a>
+                <a href="/search?q={{ query }}&type={{ search_type }}&user_id={{ user_id }}&match_mode={{ match_mode }}&sort=date" class="btn btn-sm btn-outline-secondary">按时间</a>
+            </div>
+        </div>
+
+        <!-- 结果列表 -->
+        {% if results.results %}
+            {% for doc in results.results %}
+            <div class="result-card card mb-3" id="result-{{ doc.doc_id }}">
+                <div class="card-body">
+                    <!-- 标题 -->
+                    <h5 class="card-title mb-1">
+                        <a href="{{ doc.url }}" target="_blank" class="text-decoration-none result-link"
+                           data-doc-id="{{ doc.doc_id }}" data-query="{{ query }}"
+                           data-title="{{ doc.title }}" data-url="{{ doc.url }}">
+                            {{ doc.get('title_highlight', doc.title) | safe }}
+                        </a>
+                    </h5>
+
+                    <!-- URL -->
+                    <div class="result-url small text-success mb-1 text-truncate">
+                        {{ doc.url }}
+                        <span class="badge bg-secondary ms-1">{{ doc.file_type | upper }}</span>
+                        {% if doc.get('page_role') %}
+                        <span class="badge bg-info ms-1">{{ doc.page_role }}</span>
+                        {% endif %}
+                        {% if doc.get('content_quality') and doc.content_quality != 'good' %}
+                        <span class="badge bg-warning text-dark ms-1">{{ doc.content_quality }}</span>
+                        {% endif %}
+                    </div>
+
+                    <!-- 摘要 -->
+                    <p class="card-text small text-muted mb-2">
+                        {{ doc.get('snippet', doc.summary[:200]) | safe }}
+                    </p>
+
+                    <!-- 元信息 -->
+                    <div class="result-meta d-flex flex-wrap gap-2 align-items-center small">
+                        <span class="text-muted">
+                            <i class="bi bi-building"></i> {{ doc.source_site }}
+                        </span>
+                        {% if doc.publish_time %}
+                        <span class="text-muted">
+                            <i class="bi bi-calendar"></i> {{ doc.publish_time }}
+                        </span>
+                        {% endif %}
+                        <span class="text-muted" title="BM25相关性分数">
+                            <i class="bi bi-bar-chart"></i> 相关性: {{ "%.3f"|format(doc.get('score', 0)) }}
+                        </span>
+                        {% if doc.get('personalization_score') %}
+                        <span class="text-info" title="个性化加成">
+                            <i class="bi bi-person"></i> +{{ "%.3f"|format(doc.personalization_score) }}
+                        </span>
+                        {% endif %}
+                        <span class="fw-semibold text-primary" title="最终排序分数">
+                            总分: {{ "%.3f"|format(doc.get('final_score', doc.score)) }}
+                        </span>
+                    </div>
+
+                    <!-- 匹配解释 -->
+                    {% if doc.get('match_explanation') %}
+                    <div class="mt-1 small">
+                        <span class="text-muted">🔍 {{ doc.match_explanation }}</span>
+                    </div>
+                    {% endif %}
+
+                    <!-- 操作按钮 -->
+                    <div class="result-actions mt-2 d-flex gap-2">
+                        <!-- 原网页链接 -->
+                        <a href="{{ doc.url }}" target="_blank" class="btn btn-sm btn-outline-primary"
+                           data-doc-id="{{ doc.doc_id }}" data-query="{{ query }}"
+                           data-title="{{ doc.title }}" data-url="{{ doc.url }}"
+                           onclick="trackClick(this)">
+                            <i class="bi bi-box-arrow-up-right"></i> 原网页
+                        </a>
+
+                        <!-- 快照按钮 -->
+                        {% if doc.snapshot_path %}
+                        <a href="/snapshot/{{ doc.doc_id }}" target="_blank" class="btn btn-sm btn-outline-secondary">
+                            <i class="bi bi-camera"></i> 查看快照
+                        </a>
+                        {% endif %}
+
+                        <!-- 下载按钮 -->
+                        {% if doc.file_type in ('pdf', 'doc', 'docx', 'xls', 'xlsx', 'zip', 'rar') and doc.download_path %}
+                        <a href="/download/{{ doc.doc_id }}" class="btn btn-sm btn-outline-success">
+                            <i class="bi bi-download"></i> 下载 ({{ doc.file_type | upper }})
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+            <!-- 分页 -->
+            {% if results.total_pages > 1 %}
+            <nav aria-label="搜索结果分页">
+                <ul class="pagination justify-content-center">
+                    {% if results.page > 1 %}
+                    <li class="page-item">
+                        <a class="page-link" href="/search?q={{ query }}&type={{ search_type }}&user_id={{ user_id }}&match_mode={{ match_mode }}&page={{ results.page - 1 }}{% if filters.source %}&source={{ filters.source }}{% endif %}{% if filters.file_type %}&file_type={{ filters.file_type }}{% endif %}">上一页</a>
+                    </li>
+                    {% endif %}
+
+                    {% set window_start = [1, results.page - 3] | max %}
+                    {% set window_end = [results.total_pages, results.page + 3] | min %}
+
+                    {% if window_start > 1 %}
+                    <li class="page-item"><a class="page-link" href="/search?q={{ query }}&type={{ search_type }}&user_id={{ user_id }}&match_mode={{ match_mode }}&page=1">1</a></li>
+                    {% if window_start > 2 %}<li class="page-item disabled"><span class="page-link">...</span></li>{% endif %}
+                    {% endif %}
+
+                    {% for p in range(window_start, window_end + 1) %}
+                    <li class="page-item {% if p == results.page %}active{% endif %}">
+                        <a class="page-link" href="/search?q={{ query }}&type={{ search_type }}&user_id={{ user_id }}&match_mode={{ match_mode }}&page={{ p }}{% if filters.source %}&source={{ filters.source }}{% endif %}{% if filters.file_type %}&file_type={{ filters.file_type }}{% endif %}">{{ p }}</a>
+                    </li>
+                    {% endfor %}
+
+                    {% if window_end < results.total_pages %}
+                    {% if window_end < results.total_pages - 1 %}<li class="page-item disabled"><span class="page-link">...</span></li>{% endif %}
+                    <li class="page-item"><a class="page-link" href="/search?q={{ query }}&type={{ search_type }}&user_id={{ user_id }}&match_mode={{ match_mode }}&page={{ results.total_pages }}">{{ results.total_pages }}</a></li>
+                    {% endif %}
+
+                    {% if results.page < results.total_pages %}
+                    <li class="page-item">
+                        <a class="page-link" href="/search?q={{ query }}&type={{ search_type }}&user_id={{ user_id }}&match_mode={{ match_mode }}&page={{ results.page + 1 }}{% if filters.source %}&source={{ filters.source }}{% endif %}{% if filters.file_type %}&file_type={{ filters.file_type }}{% endif %}">下一页</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </nav>
+            {% endif %}
+
+        {% else %}
+            <div class="text-center py-5">
+                <i class="bi bi-search" style="font-size: 64px; color: #ccc;"></i>
+                <h4 class="text-muted mt-3">未找到相关结果</h4>
+                <p class="text-muted">尝试其他关键词或放宽筛选条件</p>
+            </div>
+        {% endif %}
+        {% endif %}
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/suggest.js') }}"></script>
+<script>
+function trackClick(el) {
+    var docId = el.getAttribute('data-doc-id');
+    var query = el.getAttribute('data-query');
+    var title = el.getAttribute('data-title');
+    var url = el.getAttribute('data-url');
+    var userId = '{{ user_id }}';
+
+    fetch('/api/click?doc_id=' + encodeURIComponent(docId)
+        + '&query=' + encodeURIComponent(query)
+        + '&title=' + encodeURIComponent(title)
+        + '&url=' + encodeURIComponent(url)
+        + '&user_id=' + encodeURIComponent(userId));
+}
+</script>
+{% endblock %}
