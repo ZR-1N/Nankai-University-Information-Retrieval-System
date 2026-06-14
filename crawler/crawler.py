@@ -512,9 +512,13 @@ class Crawler:
             f.write(f"  Error: {error}\n")
 
     def _update_stats(self):
-        stats = compute_stats()
+        # 注意：compute_stats(False) 不从旧文件恢复，避免爬取过程统计被覆盖
+        stats = compute_stats(preserve_process_stats=False)
         stats["failed_urls"] = self.failed_urls
         stats["duplicate_urls"] = self.duplicate_urls
+        if self.start_time:
+            stats["crawl_elapsed"] = round(time.time() - self.start_time, 1)
+            stats["crawl_speed"] = round(self.counter / max(stats["crawl_elapsed"], 0.1), 2)
         # 添加均衡爬取统计
         stats["balanced_mode"] = self.balanced
         stats["max_source_ratio"] = self.url_manager.max_source_ratio

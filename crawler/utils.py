@@ -40,8 +40,13 @@ def load_metadata() -> list[dict]:
     return records
 
 
-def compute_stats() -> dict:
-    """从 metadata.jsonl 计算爬取统计"""
+def compute_stats(preserve_process_stats: bool = True) -> dict:
+    """从 metadata.jsonl 计算爬取统计
+
+    Args:
+        preserve_process_stats: 若为 True，从现有 crawl_stats.json 中保留爬取过程统计
+                                （failed_urls, duplicate_urls, crawl_elapsed, crawl_speed）
+    """
     records = load_metadata()
     stats = {
         "total_docs": len(records),
@@ -59,8 +64,25 @@ def compute_stats() -> dict:
         "content_quality": {},
         "failed_urls": 0,
         "duplicate_urls": 0,
+        "crawl_elapsed": 0.0,
+        "crawl_speed": 0.0,
         "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
+    # 从已有 crawl_stats.json 保留爬取过程统计（这些只能由爬虫运行时产生）
+    if preserve_process_stats and os.path.exists(CRAWL_STATS_FILE):
+        try:
+            with open(CRAWL_STATS_FILE, "r", encoding="utf-8") as f:
+                old = json.load(f)
+            stats["failed_urls"] = old.get("failed_urls", 0)
+            stats["duplicate_urls"] = old.get("duplicate_urls", 0)
+            stats["crawl_elapsed"] = old.get("crawl_elapsed", 0.0)
+            stats["crawl_speed"] = old.get("crawl_speed", 0.0)
+            stats["balanced_mode"] = old.get("balanced_mode", True)
+            stats["max_source_ratio"] = old.get("max_source_ratio", 0.30)
+            stats["source_crawled"] = old.get("source_crawled", {})
+            stats["source_quota_info"] = old.get("source_quota_info", {})
+        except (json.JSONDecodeError, Exception):
+            pass
     for rec in records:
         ft = rec.get("file_type", "html")
         if ft == "html":

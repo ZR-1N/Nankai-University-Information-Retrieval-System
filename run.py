@@ -107,16 +107,20 @@ def cmd_stats(args):
     from config.settings import CRAWL_STATS_FILE, METADATA_FILE
     from crawler.utils import load_metadata, compute_stats, save_stats
 
-    # 直接从 metadata.jsonl 重新计算所有统计（确保一致性）
-    print("统计来源：metadata.jsonl（实时计算）")
-    stats = compute_stats()
+    # 先从 metadata.jsonl 重新计算最终入库统计（同时保留爬取过程统计）
+    stats = compute_stats(preserve_process_stats=True)
 
     # 同步写入 crawl_stats.json
     save_stats(stats)
 
-    print("=" * 50)
-    print("  爬取统计")
-    print("=" * 50)
+    total = stats.get("total_docs", 1)
+
+    # ================================================================
+    # 第一部分：最终入库统计（以 metadata.jsonl 为准）
+    # ================================================================
+    print("=" * 60)
+    print("  最终入库统计（来源：metadata.jsonl）")
+    print("=" * 60)
     print(f"  总文档数: {stats.get('total_docs', 0)}")
     print(f"  HTML 页面: {stats.get('html_pages', 0)}")
     print(f"  PDF 文件: {stats.get('pdf_files', 0)}")
@@ -126,11 +130,8 @@ def cmd_stats(args):
     print(f"  XLSX 文件: {stats.get('xlsx_files', 0)}")
     print(f"  ZIP/RAR: {stats.get('zip_files', 0)}")
     print(f"  PPT 文件: {stats.get('ppt_files', 0)}")
-    print(f"  失败 URL: {stats.get('failed_urls', 0)}")
-    print(f"  重复 URL: {stats.get('duplicate_urls', 0)}")
 
     print(f"\n  来源分布:")
-    total = stats.get("total_docs", 1)
     for site, count in sorted(stats.get("source_sites", {}).items(),
                                key=lambda x: x[1], reverse=True):
         pct = round(count / max(total, 1) * 100, 1)
@@ -146,7 +147,49 @@ def cmd_stats(args):
         pct = round(count / max(total, 1) * 100, 1)
         print(f"    - {cq}: {count} ({pct}%)")
 
-    # 索引统计
+    print(f"\n  解析状态分布:")
+    for ps, count in stats.get("parse_status", {}).items():
+        pct = round(count / max(total, 1) * 100, 1)
+        print(f"    - {ps}: {count} ({pct}%)")
+
+    # ================================================================
+    # 第二部分：爬取过程统计（来自爬虫运行时记录）
+    # ================================================================
+    print("\n" + "=" * 60)
+    print("  爬取过程统计（来源：爬虫运行时记录）")
+    print("=" * 60)
+    failed = stats.get("failed_urls", 0)
+    dup = stats.get("duplicate_urls", 0)
+    elapsed = stats.get("crawl_elapsed", 0.0)
+    speed = stats.get("crawl_speed", 0.0)
+    print(f"  失败 URL: {failed}")
+    print(f"  重复页面: {dup}")
+    if elapsed > 0:
+        print(f"  爬取耗时: {elapsed:.1f}s ({elapsed/3600:.1f}h)")
+    if speed > 0:
+        print(f"  平均速度: {speed:.2f} 页/秒")
+
+    # 均衡爬取信息
+    if stats.get("balanced_mode"):
+        print(f"\n  均衡爬取配额信息:")
+        print(f"    最大单源占比限制: {stats.get('max_source_ratio', 0.30)*100:.0f}%")
+        quota_info = stats.get("source_quota_info", {})
+        if quota_info:
+            print(f"    活跃源数: {quota_info.get('active_sources', '?')}")
+            print(f"    每个源公平配额: {quota_info.get('fair_share', '?')}")
+            print(f"    已耗尽源: {quota_info.get('depleted_sources', 0)}")
+
+    # source_crawled 分布
+    source_crawled = stats.get("source_crawled", {})
+    if source_crawled:
+        print(f"\n  各源爬取产出:")
+        for site, count in sorted(source_crawled.items(),
+                                    key=lambda x: x[1], reverse=True):
+            print(f"    - {site}: {count}")
+
+    # ================================================================
+    # 第三部分：索引统计
+    # ================================================================
     index_dir = os.path.join(os.path.dirname(__file__), "data", "index")
     if os.path.exists(os.path.join(index_dir, "index_stats.json")):
         with open(os.path.join(index_dir, "index_stats.json"), "r",
@@ -157,6 +200,11 @@ def cmd_stats(args):
         print("=" * 50)
         print(f"  文档总数: {idx_stats.get('doc_count', 0)}")
         print(f"  词条总数: {idx_stats.get('term_count', 0)}")
+
+    # 一致性说明
+    if failed > 0 or dup > 0:
+        print(f"\n[提示] 爬取过程统计中的失败/重复 URL 不计入最终入库统计。")
+        print(f"       最终入库统计以 metadata.jsonl 为准。")
 
 
 def cmd_web(args):

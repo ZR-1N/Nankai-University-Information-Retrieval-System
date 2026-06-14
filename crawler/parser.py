@@ -312,7 +312,11 @@ class HTMLParser:
         if self._url_matches_detail_pattern():
             # 二次确认：内容是否真的像详情页
             if not self._looks_like_list():
-                return "detail"
+                role = "detail"
+                # 保守修正：标题为已知栏目名 → 更可能是列表页
+                if self._title_is_column_name():
+                    role = "list"
+                return role
             # 即使 URL 像 detail，内容像 list 则优先 list
             return "list"
 
@@ -329,14 +333,28 @@ class HTMLParser:
         if self._looks_like_list():
             return "list"
         if self._looks_like_detail():
-            return "detail"
+            role = "detail"
+            # 保守修正：标题为已知栏目名 → 更可能是列表页
+            # （部分 CMS 的栏目内页只有一个短通知，正文很短，
+            #   但标题为栏目名说明页面本身是列表容器）
+            if self._title_is_column_name():
+                role = "list"
+            return role
 
         # 默认为 detail（有 URL 路径深度的优先当详情页）
         parsed = urlparse(self.url)
         if len(parsed.path.strip("/").split("/")) >= 2:
-            return "detail"
+            role = "detail"
+            if self._title_is_column_name():
+                role = "list"
+            return role
 
         return "list"
+
+    def _title_is_column_name(self) -> bool:
+        """检查已提取的标题是否为已知的栏目名"""
+        title = self.extract_title()
+        return title in COLUMN_NAMES
 
     def _url_matches_list_pattern(self) -> bool:
         """检查 URL 是否匹配已知的分页列表页模式"""
