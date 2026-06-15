@@ -15,7 +15,7 @@
 | 9 | AND/OR匹配 | `search_engine/search.py` (_get_candidates集合并/交) | `python run.py search "研究生 复试" --match-mode and` | 匹配模式下拉→AND/OR | 展示OR vs AND结果数量对比（1184条AND） |
 | 10 | 通配符* | `search_engine/wildcard_search.py` (regex替换) | `python run.py search "奖学*" --type wildcard` | 搜索类型→通配查询 | 展示2744条结果，演示前缀通配功能 |
 | 11 | 通配符? | `search_engine/wildcard_search.py` (单字符regex) | `python run.py search "研究??" --type wildcard` | 搜索类型→通配查询 | 展示6061条结果，演示?匹配单个字符 |
-| 12 | 模糊查询 | `search_engine/fuzzy_search.py` (Levenshtein距离≤2) | `python run.py search "研宄生" --type fuzzy` | 搜索类型→模糊查询 | 展示2059条结果，演示"宄"→"究"形近字容错 |
+| 12 | 模糊查询 | `search_engine/fuzzy_search.py` (Levenshtein距离≤2) | `python run.py search "奖学今" --type fuzzy` | 搜索类型→模糊查询 | 展示346条结果，演示"今"→"金"错字容错 |
 | 13 | 文档查询 | `search_engine/search.py` → filters(file_type), `crawler/parser.py` → extract_attachment_links() | `python run.py search "申请表" --type doc` | 筛选→文档类型 | 展示1687条结果中doc/docx/xlsx/PDF文档 |
 | 14 | 文档下载 | `web/app.py` → /download/<doc_id>, `crawler/downloader.py` | 点击Web下载按钮 | 结果页→下载按钮 | 展示5147个文档附件的下载按钮并实际下载 |
 | 15 | 查询日志 | `database/db.py` (SQLite), `web/app.py` → /logs | `python run.py web` → /logs | `/logs` | 展示查询日志表、热门查询排行 |

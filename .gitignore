@@ -1,1 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+logs/
+*.log
+
+# Runtime database
+*.db
+database/*.db
+
+# Local data and generated artifacts
 data/
+data/raw_html/
+data/documents/
+data/snapshots/
+data/index/
+data/*.jsonl
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv/
+venv/
