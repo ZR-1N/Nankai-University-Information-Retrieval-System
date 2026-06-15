@@ -2808,3 +2808,1249 @@
   Error: PyMuPDF extracted empty text
 [2026-06-14 02:24:40] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\46e4efbfa11d.doc
   Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\46e4efbfa11d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:00:42] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\64d97ad2882d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\64d97ad2882d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:01:01] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\3195c0adbe6e.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:01:15] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\7cd03bfcede6.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:01:30] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4c5e0deb10a0.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\4c5e0deb10a0.doc'
+[2026-06-14 10:01:47] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\16ee22535dbd.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\16ee22535dbd.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:02:04] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c277db498b63.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c277db498b63.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:03:22] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8be7e8c07272.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\8be7e8c07272.doc'
+[2026-06-14 10:03:37] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a2c3e7ad064a.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\a2c3e7ad064a.doc'
+[2026-06-14 10:03:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ed251dbf416a.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\ed251dbf416a.doc'
+[2026-06-14 10:07:43] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\03d18e4b9c3e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\03d18e4b9c3e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:07:58] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\fb88aaad06e3.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\fb88aaad06e3.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:08:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f6d91fa712d6.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f6d91fa712d6.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:08:29] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\7c05593e00c4.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:08:44] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\b850aee9560f.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:08:59] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c947518f925e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c947518f925e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:09:14] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3773eaab7d2a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3773eaab7d2a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:10:53] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\699530ccd905.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:11:23] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\e7a8a324f41c.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:12:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9686250f3d45.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\9686250f3d45.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:15:19] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\036f6fa8fb92.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\036f6fa8fb92.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:15:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\606acbcc0b72.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\606acbcc0b72.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:16:04] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8f03de1f3982.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\8f03de1f3982.doc'
+[2026-06-14 10:17:21] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4f7497ba9ee0.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4f7497ba9ee0.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:17:36] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\568ab82f016a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\568ab82f016a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:17:43] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6d073ae8e28e.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\6d073ae8e28e.doc'
+[2026-06-14 10:19:00] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\32edf35853a3.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\32edf35853a3.doc'
+[2026-06-14 10:19:30] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f3ba6d00e269.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\f3ba6d00e269.doc'
+[2026-06-14 10:26:42] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1d431698e3d7.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1d431698e3d7.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:26:47] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\0d639b3b9070.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:26:57] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a85a40c37c9e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\a85a40c37c9e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:27:19] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a9af11be3296.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\a9af11be3296.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:28:25] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\fe5714bce485.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\fe5714bce485.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:28:43] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\ec31515a15a0.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:30:02] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\13c657666d8d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\13c657666d8d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:30:07] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6d51756fb3a5.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\6d51756fb3a5.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:30:17] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\37da4997444f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\37da4997444f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:30:39] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8a94a0d2954d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\8a94a0d2954d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:31:14] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\0c2063d34f43.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 10:31:36] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3ac2935aedd6.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3ac2935aedd6.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:32:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ddae46a49cdb.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\ddae46a49cdb.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:32:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\47b0602b6a47.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\47b0602b6a47.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:32:38] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\cca78b6f96a2.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\cca78b6f96a2.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:32:53] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6e59ba82b746.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\6e59ba82b746.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:33:03] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4026855af739.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4026855af739.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:33:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5eb89863b7c4.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5eb89863b7c4.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:33:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\aac65751d978.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\aac65751d978.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:33:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f040d93a080a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f040d93a080a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:33:33] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\07e9943b7e1c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\07e9943b7e1c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:33:38] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2268b928de24.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2268b928de24.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:33:43] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2f86008ab3af.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\2f86008ab3af.doc'
+[2026-06-14 10:33:48] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\021ca04a9962.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:33:53] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\62d7c9482b37.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\62d7c9482b37.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:33:58] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\08dff5a1feb6.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\08dff5a1feb6.doc'
+[2026-06-14 10:34:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7a87e761a03d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7a87e761a03d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:34:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e814fc1f8cfb.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e814fc1f8cfb.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:34:28] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1250fdba286e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1250fdba286e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:34:39] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\eec2133dc6a1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\eec2133dc6a1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:34:43] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\ea0403875604.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:34:54] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c066109cf6c4.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c066109cf6c4.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:35:09] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\81cdb1559e41.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\81cdb1559e41.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:35:24] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\08dc6d1191ad.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\08dc6d1191ad.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:35:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9dc2068d9c4b.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\9dc2068d9c4b.doc'
+[2026-06-14 10:35:39] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\64ac30d93ab9.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\64ac30d93ab9.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:35:44] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\56a0e0bcf1fe.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\56a0e0bcf1fe.doc'
+[2026-06-14 10:35:54] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\fce49bd4862c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\fce49bd4862c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:35:59] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c27049a4e107.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\c27049a4e107.doc'
+[2026-06-14 10:36:09] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5f3f40ce66c9.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5f3f40ce66c9.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:36:14] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0706e8c576af.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\0706e8c576af.doc'
+[2026-06-14 10:36:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e4a2762603d7.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\e4a2762603d7.doc'
+[2026-06-14 10:36:39] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2b7479964cf4.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2b7479964cf4.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:36:45] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3b18d50f7056.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\3b18d50f7056.doc'
+[2026-06-14 10:37:10] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5dbde66bb2f1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5dbde66bb2f1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:37:25] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7c8def449d02.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7c8def449d02.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:37:40] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3fad0b43253d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3fad0b43253d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:39:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e68f44bd6c10.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e68f44bd6c10.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:39:32] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\99bc173a27ee.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\99bc173a27ee.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:40:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b47cdd804107.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b47cdd804107.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:40:41] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\cdb939bf2ae1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\cdb939bf2ae1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:42:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\cb483f7b59e9.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\cb483f7b59e9.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:42:44] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\11ad9ada8c96.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\11ad9ada8c96.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:43:14] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\bef3dbd9ae36.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\bef3dbd9ae36.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:43:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\35a52195ac34.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\35a52195ac34.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:44:20] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1cd6d1cfbd6e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1cd6d1cfbd6e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:44:33] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\854772c784a4.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\854772c784a4.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:44:35] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\109f06e3a610.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\109f06e3a610.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:45:05] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0c5e51cc9c16.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\0c5e51cc9c16.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:45:20] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\dee25b35393b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\dee25b35393b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:46:40] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\06f6c471b497.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\06f6c471b497.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:46:55] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d892582ed07b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d892582ed07b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:48:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\707cc2297608.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\707cc2297608.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:48:28] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\87eff1e92ebc.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\87eff1e92ebc.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:49:33] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0b88cc11b4bd.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\0b88cc11b4bd.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:49:49] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\503e9f8fe16c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\503e9f8fe16c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:50:49] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\583ec1c9b446.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\583ec1c9b446.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:51:04] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a42707a271bf.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\a42707a271bf.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:51:48] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\dfe8fe96f048.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\dfe8fe96f048.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:51:52] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\2fd78f409e5f.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 10:52:03] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0dcd4ce6415f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\0dcd4ce6415f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:53:01] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ec759e75da8d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\ec759e75da8d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:53:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3d3787248045.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3d3787248045.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.presentationml.presentation.
+[2026-06-14 10:53:50] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6fdfcd748f1d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\6fdfcd748f1d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 10:59:46] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d867eae1a972.doc
+  Error: python-docx error: "no relationship of type 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument' in collection"
+[2026-06-14 11:08:38] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4503dbc7dabd.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4503dbc7dabd.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:08:51] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\ee798d5e93e7.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 11:09:17] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0abc914354de.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\0abc914354de.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:10:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d02f02c666ab.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d02f02c666ab.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:10:28] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7ba9545ceca2.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7ba9545ceca2.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:10:41] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4a197799ed81.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4a197799ed81.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:11:36] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2bb8d6d57ec9.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2bb8d6d57ec9.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:12:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\fa365b8e704f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\fa365b8e704f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:12:41] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\24ced6706f71.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 11:13:07] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\069ee4fd4b4b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\069ee4fd4b4b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:14:26] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8ae5d4ce606b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\8ae5d4ce606b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:16:50] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\87e1c14b2b72.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\87e1c14b2b72.doc'
+[2026-06-14 11:17:05] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\11b094883ac3.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\11b094883ac3.doc'
+[2026-06-14 11:18:05] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9492b8cb0418.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\9492b8cb0418.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:20:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\493e9d600c2e.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\493e9d600c2e.doc'
+[2026-06-14 11:20:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d05647d845ba.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d05647d845ba.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:20:36] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\cf8a7a74acdf.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\cf8a7a74acdf.doc'
+[2026-06-14 11:22:22] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\84ec1ef49759.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 11:22:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\547c7cc5b78a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\547c7cc5b78a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:22:36] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9bd10e10da55.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\9bd10e10da55.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:22:48] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5aca246d514e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5aca246d514e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:23:02] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3aacabeef834.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3aacabeef834.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:23:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\42910a4696be.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\42910a4696be.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:24:09] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\855e36f1106a.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\855e36f1106a.doc'
+[2026-06-14 11:24:57] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\25f846f71b19.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\25f846f71b19.doc'
+[2026-06-14 11:25:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a1c15434ebcb.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\a1c15434ebcb.doc'
+[2026-06-14 11:25:45] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e0ae1a611ef8.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\e0ae1a611ef8.doc'
+[2026-06-14 11:26:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\01d8dc13ed95.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\01d8dc13ed95.doc'
+[2026-06-14 11:26:44] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4e6b02e9eaaf.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4e6b02e9eaaf.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:26:59] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7c3e75119e10.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7c3e75119e10.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:27:12] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9fa68f634c15.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\9fa68f634c15.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:27:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d392327eae9f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d392327eae9f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:27:40] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9e64b9724870.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\9e64b9724870.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:27:55] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2e2de7bafb6b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2e2de7bafb6b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:28:02] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5da9b703a942.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5da9b703a942.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:29:10] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\796c94adbb4e.docx
+  Error: python-docx extracted empty text
+[2026-06-14 11:32:39] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f0b961769a3b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f0b961769a3b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:33:09] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\aff30d7d2649.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\aff30d7d2649.doc'
+[2026-06-14 11:33:24] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f352dc4be0d4.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\f352dc4be0d4.doc'
+[2026-06-14 11:33:57] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1f78baaa46f9.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\1f78baaa46f9.doc'
+[2026-06-14 11:34:26] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\37b9eef9cf18.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\37b9eef9cf18.doc'
+[2026-06-14 11:36:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8e510b975d6b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\8e510b975d6b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:36:47] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\80ee862f838a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\80ee862f838a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:37:00] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\234a71b6e63f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\234a71b6e63f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:37:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ee3f6c77dcc3.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\ee3f6c77dcc3.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:37:26] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\662a9b15b27a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\662a9b15b27a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:37:39] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\81754cd464e8.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\81754cd464e8.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:37:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b06d0fe9ec49.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b06d0fe9ec49.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:38:05] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d6f20c61ab84.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d6f20c61ab84.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:40:58] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\49b45d26cf3c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\49b45d26cf3c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:52:45] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e86948781bc5.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e86948781bc5.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:52:58] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\dd8d0f7b216a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\dd8d0f7b216a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:53:11] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\eacd0c0fbc47.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 11:53:24] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\1892190bb644.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 11:53:37] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\912933cad0ac.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\912933cad0ac.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:53:50] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\13a7d44d9615.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\13a7d44d9615.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:55:35] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\20e6ac97e7ab.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\20e6ac97e7ab.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:55:50] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3c6c75fa3dec.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3c6c75fa3dec.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:56:03] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4d7583f5d143.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4d7583f5d143.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 11:56:33] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f592a03ab16a.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\f592a03ab16a.doc'
+[2026-06-14 12:00:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f186b1d2e436.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f186b1d2e436.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:00:42] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\dded9973b015.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\dded9973b015.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:00:55] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\6287b60317c2.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 12:01:08] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\763b5fda908c.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 12:01:22] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4786298f43d2.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4786298f43d2.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:01:35] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6cac0959086a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\6cac0959086a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:04:04] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\84b1af574e78.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\84b1af574e78.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:04:11] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\dd0e21870c11.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\dd0e21870c11.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:04:43] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d294003e46a9.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\d294003e46a9.doc'
+[2026-06-14 12:04:56] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ed3ecc2a5357.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\ed3ecc2a5357.doc'
+[2026-06-14 12:05:16] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d1dfa15fd9b8.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\d1dfa15fd9b8.doc'
+[2026-06-14 12:05:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8474748fdc71.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\8474748fdc71.doc'
+[2026-06-14 12:08:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5df83b10dbee.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5df83b10dbee.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:08:42] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5b3939a48dcd.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\5b3939a48dcd.doc'
+[2026-06-14 12:09:40] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5c01d430a62b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5c01d430a62b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:09:56] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4a70b8e0ed15.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4a70b8e0ed15.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:10:24] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\efa5d1871be9.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\efa5d1871be9.doc'
+[2026-06-14 12:11:36] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8eba48727e29.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\8eba48727e29.doc'
+[2026-06-14 12:11:49] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2e54d966fc4d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2e54d966fc4d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:12:02] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\938e16ffb073.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\938e16ffb073.doc'
+[2026-06-14 12:16:12] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9e5df666222e.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\9e5df666222e.doc'
+[2026-06-14 12:16:56] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3130dc84573e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3130dc84573e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:17:09] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\0bbdc844d31f.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 12:23:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\62c293e99c6c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\62c293e99c6c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:25:00] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9d89af2c56a4.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\9d89af2c56a4.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:54:28] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7474ddedf8ae.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7474ddedf8ae.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 12:56:45] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\852d53a014a8.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 13:01:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7a48e2a03574.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7a48e2a03574.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:07:01] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\786fff1180e7.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 13:07:14] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\e9d0cc4193bf.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 13:07:36] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\cbe494a85c38.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\cbe494a85c38.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:07:49] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3f5680cdc800.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\3f5680cdc800.doc'
+[2026-06-14 13:08:04] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\df604feabbc3.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\df604feabbc3.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:08:17] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\49019de7685f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\49019de7685f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:10:41] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\06e554b4e799.docx
+  Error: python-docx extracted empty text
+[2026-06-14 13:11:33] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0b92c921ab73.docx
+  Error: python-docx extracted empty text
+[2026-06-14 13:14:51] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\24296ddcf4c4.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\24296ddcf4c4.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:15:33] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0b65e95e8fd4.docx
+  Error: python-docx extracted empty text
+[2026-06-14 13:16:45] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\81d21ca4464f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\81d21ca4464f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:16:58] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0de01998a380.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\0de01998a380.doc'
+[2026-06-14 13:17:11] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1aefa047d87e.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\1aefa047d87e.doc'
+[2026-06-14 13:24:06] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\627268ca9cc6.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\627268ca9cc6.doc'
+[2026-06-14 13:25:02] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\494e4daebbe7.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\494e4daebbe7.doc'
+[2026-06-14 13:30:31] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\07434e8c96a0.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 13:30:46] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5bad3dfb8311.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5bad3dfb8311.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:30:59] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a133fe1dcc86.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\a133fe1dcc86.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:31:12] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1a8bda393be2.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1a8bda393be2.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:36:57] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5b7c15401384.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5b7c15401384.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:40:22] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a9204e626003.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\a9204e626003.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:40:46] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a82869524b55.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\a82869524b55.doc'
+[2026-06-14 13:40:58] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6804dab76eae.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\6804dab76eae.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:41:10] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3782210334a1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3782210334a1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 13:48:19] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\8b21cdec76de.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 13:48:31] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\a4a7038955b2.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 14:44:32] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6aae2ce6ac66.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\6aae2ce6ac66.doc'
+[2026-06-14 14:44:49] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\58e371345f1b.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 14:49:41] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b50435043fab.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\b50435043fab.doc'
+[2026-06-14 14:54:44] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6dfad46a7236.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\6dfad46a7236.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:01:14] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\58646631002e.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 15:06:06] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c54ce1d38100.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c54ce1d38100.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:06:29] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\136c6802e655.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 15:06:30] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\38ac5f44412d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\38ac5f44412d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:06:41] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\fb8a633bfeab.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 15:06:57] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\b6258b96f4be.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 15:07:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0fe2a3ada6c0.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\0fe2a3ada6c0.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:07:21] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\e7006f9d8a7a.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 15:07:32] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\9aecfb2f9756.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 15:07:43] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d1289968e50a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d1289968e50a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:07:54] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c58b9877aca0.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c58b9877aca0.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:08:06] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1bd4436874af.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1bd4436874af.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:11:11] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\77c304823ddb.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\77c304823ddb.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:11:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3923a3aa9433.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3923a3aa9433.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:11:49] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1d2a126be85b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1d2a126be85b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:12:00] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\216ad10f75f6.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\216ad10f75f6.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:12:44] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\d4ea7059a95a.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 15:13:17] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7fb56dcc3c58.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7fb56dcc3c58.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:13:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e07709d356f5.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e07709d356f5.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:13:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3d91f7071215.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3d91f7071215.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:13:45] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d7f9a7c1770b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d7f9a7c1770b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:13:51] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ee6f10d40e1e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\ee6f10d40e1e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:17:06] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a6d83e2670cb.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\a6d83e2670cb.doc'
+[2026-06-14 15:45:44] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\aef5aa875ddc.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 15:48:06] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\8a0efac95763.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 15:57:01] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9c1d13492122.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\9c1d13492122.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:57:11] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\727f2ee4c71a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\727f2ee4c71a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 15:57:21] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8b6c964f4020.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\8b6c964f4020.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 16:03:02] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\09f6f8d9da16.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\09f6f8d9da16.doc'
+[2026-06-14 16:03:18] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1a437a8daad6.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1a437a8daad6.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 16:03:36] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8168e7a49f20.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\8168e7a49f20.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 16:07:12] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a3edad598f41.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\a3edad598f41.doc'
+[2026-06-14 16:07:21] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b06aef17132f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b06aef17132f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 16:07:30] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c75043981e0d.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\c75043981e0d.doc'
+[2026-06-14 16:30:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c4684f48df40.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c4684f48df40.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 16:32:55] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5033931c99ff.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5033931c99ff.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 16:49:55] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\21a63a8fcf07.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\21a63a8fcf07.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:03:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1b74c9386b48.docx
+  Error: python-docx extracted empty text
+[2026-06-14 17:06:38] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\09de55ea22b2.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 17:07:24] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2c9419918a63.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2c9419918a63.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:07:33] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\bb56960b88ef.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\bb56960b88ef.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:07:40] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\95da94ba7bca.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\95da94ba7bca.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:07:47] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f56636878cdb.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f56636878cdb.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:07:53] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a5e311c9a938.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\a5e311c9a938.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:07:58] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9b6d93779f29.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\9b6d93779f29.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:08:05] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b852df1b7c50.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b852df1b7c50.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:08:12] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\eafebec857ca.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\eafebec857ca.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:09:50] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3feb5ff0b1ee.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3feb5ff0b1ee.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:10:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\84a0c46710e5.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\84a0c46710e5.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:10:14] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b9ad863ed2b1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b9ad863ed2b1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 17:23:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\352c44064bf7.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\352c44064bf7.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:11:46] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\31277460c16c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\31277460c16c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:18:33] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\425470ad62a5.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 18:19:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b105dc950a57.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b105dc950a57.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:19:30] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\84ea155e081a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\84ea155e081a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:19:38] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f57ba5b00807.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f57ba5b00807.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:19:57] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1a7663763ff2.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1a7663763ff2.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:20:21] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0aad98ce2728.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\0aad98ce2728.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:20:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\db1ae96c4679.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\db1ae96c4679.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:23:32] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e05242203ae8.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e05242203ae8.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:23:46] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\633d8a5cf173.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\633d8a5cf173.doc'
+[2026-06-14 18:24:07] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\45cf3d1e7f56.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 18:24:19] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\bbad91600949.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\bbad91600949.doc'
+[2026-06-14 18:24:49] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\942ac5d10301.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\942ac5d10301.doc'
+[2026-06-14 18:25:17] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\03cca0741a1d.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 18:27:01] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\861f4bcfc953.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 18:28:08] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\9f53a74821fc.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 18:33:21] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f25f0d044dc7.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f25f0d044dc7.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:38:21] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e2f21c5f96f5.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\e2f21c5f96f5.doc'
+[2026-06-14 18:40:35] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1eff83646440.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\1eff83646440.doc'
+[2026-06-14 18:40:41] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\fa6deae90bb4.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\fa6deae90bb4.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:40:47] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f1b9da2ec13b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f1b9da2ec13b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:41:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8b5ae8a237b1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\8b5ae8a237b1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:41:43] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f54af84765b8.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f54af84765b8.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:42:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\045e8b871d26.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\045e8b871d26.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:42:31] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c402b3a539d6.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c402b3a539d6.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:43:31] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\77550cf45bd5.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\77550cf45bd5.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:43:49] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2ef10d47ab8b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2ef10d47ab8b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:44:07] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\e792ab6e4cb3.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 18:44:11] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e20341f1a2b5.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e20341f1a2b5.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:44:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\79bc9169bbd8.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\79bc9169bbd8.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:44:53] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5d002d95b37c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5d002d95b37c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:45:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\755c95793064.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\755c95793064.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:45:42] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e208417fd4a1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e208417fd4a1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:46:36] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4d884f16b411.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4d884f16b411.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:50:45] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\145121aeb60c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\145121aeb60c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:57:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\183a79b6a999.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\183a79b6a999.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:57:31] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7883b31bb515.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7883b31bb515.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:57:43] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a8e42e151839.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\a8e42e151839.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:59:39] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\01ec5c80e42e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\01ec5c80e42e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 18:59:57] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\77645601ac8a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\77645601ac8a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:00:03] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\499308e216a8.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\499308e216a8.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:00:09] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\cc6edd886001.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\cc6edd886001.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:00:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e02478e988c7.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e02478e988c7.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:00:38] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b5768645a962.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b5768645a962.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:00:46] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\50cd7aed26d9.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 19:01:18] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\344e30a24bb7.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 19:01:50] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b8768f223fd1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b8768f223fd1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:08:58] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c84eaf67ea50.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c84eaf67ea50.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:09:55] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f538dbf1ae5e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f538dbf1ae5e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:22:14] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\630421cc8c5a.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 19:22:30] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ff69341dd8b8.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\ff69341dd8b8.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:23:02] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\e38b42593467.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 19:23:24] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\de8570f7387e.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 19:24:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\489843ff6f00.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\489843ff6f00.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:25:45] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\004573ef38e6.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 19:31:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f9ffb3ae9f75.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f9ffb3ae9f75.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:31:58] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3c31e3a81685.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3c31e3a81685.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:35:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\92f2956a43dd.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\92f2956a43dd.doc'
+[2026-06-14 19:36:43] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d2797c240b18.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d2797c240b18.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:37:00] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8d84f102758a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\8d84f102758a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:37:17] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6fda4e2ef231.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\6fda4e2ef231.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:40:12] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7b879c3f6c31.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7b879c3f6c31.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:50:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\cf9a435db48b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\cf9a435db48b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:50:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1064694d902a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1064694d902a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:51:24] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\637bab67c6b0.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\637bab67c6b0.doc'
+[2026-06-14 19:51:32] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\93a74f07b487.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\93a74f07b487.doc'
+[2026-06-14 19:52:08] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\e80917a6cff5.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 19:52:14] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\403eec639bee.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\403eec639bee.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:58:51] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\15a362c1538a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\15a362c1538a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:58:57] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e4344e1188b7.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e4344e1188b7.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:59:03] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\12574ae8a3cd.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\12574ae8a3cd.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:59:21] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\204b15020b11.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\204b15020b11.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:59:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4e2428ea42ef.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4e2428ea42ef.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:59:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\01aae26577ea.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\01aae26577ea.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 19:59:40] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\131a056f9faa.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 19:59:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\99f8cd7367f2.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\99f8cd7367f2.doc'
+[2026-06-14 19:59:58] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\99ee9894deeb.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\99ee9894deeb.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:01:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\71c7b1de3143.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\71c7b1de3143.doc'
+[2026-06-14 20:01:40] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\9a1599e87de1.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:01:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\dc13797a531f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\dc13797a531f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:02:04] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c9701bae664f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c9701bae664f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:02:10] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\1bbb5f9e76ca.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:02:16] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\aeadb6c0d9dd.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\aeadb6c0d9dd.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:02:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2443e7fcac18.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2443e7fcac18.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:02:35] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\468766e1174c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\468766e1174c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:04:12] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\654974f0aeb1.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:05:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\523a5683e318.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\523a5683e318.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:05:14] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\862308522a84.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\862308522a84.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:05:26] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d8a1fd44f2c0.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\d8a1fd44f2c0.doc'
+[2026-06-14 20:05:32] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\00d7ca75763d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\00d7ca75763d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:05:38] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\de90edc87f8c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\de90edc87f8c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:05:44] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c8cf01fb4e3c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c8cf01fb4e3c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:07:57] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\b4f125c89213.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:11:05] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\820329aab7fc.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\820329aab7fc.doc'
+[2026-06-14 20:11:24] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\833e526005b1.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:11:42] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e102466dc417.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\e102466dc417.doc'
+[2026-06-14 20:11:49] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\6457e1b0c8f4.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:11:54] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\ea06819cf777.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:12:00] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\fb3884040ccf.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\fb3884040ccf.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:12:06] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\629e1c84aaae.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:12:12] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\c948b9cc5f41.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:12:43] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\74fa551267d0.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\74fa551267d0.doc'
+[2026-06-14 20:12:52] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\7360a46f76dc.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:13:00] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\a5895faf4ec5.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:13:53] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\53657449ef6f.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:14:02] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\36080842f0ea.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:14:18] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\19fab9441e14.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:14:26] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\bd7a16f116c2.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\bd7a16f116c2.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:14:48] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\d2f02026a165.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:14:56] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1aa3ef1d2283.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\1aa3ef1d2283.doc'
+[2026-06-14 20:15:02] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a5315597624a.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\a5315597624a.doc'
+[2026-06-14 20:15:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\90e5cc6f652f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\90e5cc6f652f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:15:18] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\e7a693e0aaa1.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:15:20] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\5acb77e9c2fb.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:15:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\24113a60d796.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\24113a60d796.doc'
+[2026-06-14 20:15:48] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\3abb7939e118.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:16:14] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\7089d1b0c187.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:16:20] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3bc66351be86.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\3bc66351be86.doc'
+[2026-06-14 20:16:26] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\0a7ac1fddace.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:16:32] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\be0b32b3afc3.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\be0b32b3afc3.doc'
+[2026-06-14 20:16:38] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ff53907eef49.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\ff53907eef49.doc'
+[2026-06-14 20:16:44] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\d343fbfecd4e.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:16:50] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\21b691f4a937.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\21b691f4a937.doc'
+[2026-06-14 20:17:02] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7f102f9919f1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7f102f9919f1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:17:18] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\d86e0f157078.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:17:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b3b84f288465.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b3b84f288465.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:18:01] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a50df243ec19.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\a50df243ec19.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:18:05] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1eb30a91f45d.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\1eb30a91f45d.doc'
+[2026-06-14 20:18:09] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\73e4b30c641f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\73e4b30c641f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:18:17] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\de0b99ac7a1b.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:18:49] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\58749c4890db.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\58749c4890db.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:19:17] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0e9ad4bf755e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\0e9ad4bf755e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:19:21] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2b0cf273e7d1.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\2b0cf273e7d1.doc'
+[2026-06-14 20:19:25] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d96f351250a6.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d96f351250a6.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:19:33] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f57ba21ecab0.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f57ba21ecab0.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:19:44] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9a611aa29230.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\9a611aa29230.doc'
+[2026-06-14 20:20:16] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\8631b61a95fa.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:21:42] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\578532f31ee2.doc
+  Error: python-docx error: "no relationship of type 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument' in collection"
+[2026-06-14 20:22:00] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6b1ae38557a2.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\6b1ae38557a2.doc'
+[2026-06-14 20:22:12] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e1439e926df1.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\e1439e926df1.doc'
+[2026-06-14 20:22:30] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\d304296aae72.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:23:01] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\cb7a1ac568b2.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\cb7a1ac568b2.doc'
+[2026-06-14 20:23:15] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\b3c9d79b8da6.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:25:40] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7731d5343d6f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7731d5343d6f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:25:59] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\6673598fee89.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 20:26:59] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c0c589524569.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\c0c589524569.doc'
+[2026-06-14 20:27:05] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\37fbe82b2334.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\37fbe82b2334.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:27:11] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3620472e0834.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\3620472e0834.doc'
+[2026-06-14 20:27:17] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f19847921b0c.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\f19847921b0c.doc'
+[2026-06-14 20:27:23] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\616131068e03.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\616131068e03.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:27:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\07edaba542df.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\07edaba542df.doc'
+[2026-06-14 20:27:41] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b4c1ca327bca.docx
+  Error: python-docx extracted empty text
+[2026-06-14 20:27:51] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\810b643fa5da.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\810b643fa5da.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:28:53] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\195b27f17efb.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:29:42] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2ef02f799bf9.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\2ef02f799bf9.doc'
+[2026-06-14 20:34:10] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\130620e17769.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:36:40] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\32c9f8bfe260.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\32c9f8bfe260.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:36:48] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ed69f5156a69.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\ed69f5156a69.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:36:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e886244158d2.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e886244158d2.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:37:03] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\1e4943ed707b.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:37:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2460f6542ce2.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\2460f6542ce2.doc'
+[2026-06-14 20:37:25] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\98d7872de7cd.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:38:18] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\42e4d9b498ae.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 20:38:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2bf10e13a453.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2bf10e13a453.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:39:06] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2c8fca1b51ae.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2c8fca1b51ae.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:39:17] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\278a3050b075.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\278a3050b075.doc'
+[2026-06-14 20:39:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b0e18b4d5249.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b0e18b4d5249.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:40:43] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b9d7551a0c2d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b9d7551a0c2d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:42:00] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\cd0c979798f3.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\cd0c979798f3.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:42:06] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5521c3b2fab7.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5521c3b2fab7.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:42:20] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\61c2bd266a7e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\61c2bd266a7e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:42:26] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\40d6bd023701.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\40d6bd023701.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 20:42:38] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e8739801a1da.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e8739801a1da.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:04:46] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\40af1b5d7867.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\40af1b5d7867.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:04:58] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\0c19ec528551.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 21:05:06] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\241261b25642.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\241261b25642.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:05:14] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6136c479d03c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\6136c479d03c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:05:22] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2132cbb370c2.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2132cbb370c2.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:05:31] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\de18fcbc7974.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\de18fcbc7974.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:05:37] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\7c5b9b492a1e.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 21:07:11] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\afa4e46bfa26.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\afa4e46bfa26.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:07:19] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7510843faa58.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7510843faa58.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:07:32] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\82c59d122e33.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\82c59d122e33.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:08:00] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0a613cdb32f1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\0a613cdb32f1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:08:14] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9edb258e7e51.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\9edb258e7e51.doc'
+[2026-06-14 21:08:31] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f9b7a0e4292a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f9b7a0e4292a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:08:45] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3cbd69d4fccf.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3cbd69d4fccf.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:08:53] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\05a6de057fe5.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 21:20:14] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8949ed7831bc.docx
+  Error: python-docx extracted empty text
+[2026-06-14 21:20:32] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\04b39a5f2848.docx
+  Error: python-docx extracted empty text
+[2026-06-14 21:20:50] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\15a1afe13918.docx
+  Error: python-docx extracted empty text
+[2026-06-14 21:20:56] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d8080d40a753.docx
+  Error: python-docx extracted empty text
+[2026-06-14 21:21:20] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\55e76f78716a.docx
+  Error: python-docx extracted empty text
+[2026-06-14 21:22:51] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1dee564c98ef.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1dee564c98ef.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:22:57] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\07cb67df09a6.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\07cb67df09a6.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:23:03] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\161b49721661.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 21:23:21] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1a5aa72bf7da.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\1a5aa72bf7da.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:23:39] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c78557f86278.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c78557f86278.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:23:45] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\19d9cc2c20e8.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\19d9cc2c20e8.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:23:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9c9f728bc948.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\9c9f728bc948.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:24:03] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\455e5deec80e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\455e5deec80e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:24:28] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\fc3654fc5dc6.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 21:24:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d5d92fa2ab96.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d5d92fa2ab96.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:25:12] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0f6ba4fccc65.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\0f6ba4fccc65.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:25:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\311a5dfd3e56.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\311a5dfd3e56.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:26:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f0b9d9856c7f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f0b9d9856c7f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:26:38] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7f84456ce48e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7f84456ce48e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:26:40] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\b599591231a1.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 21:26:56] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\1de4ce2628bc.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 21:27:44] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\54dcc722ab98.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\54dcc722ab98.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:28:02] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\06b06bf04bcb.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\06b06bf04bcb.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:28:15] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\e1c0a0a1df65.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 21:28:21] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\77e6288b4de6.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 21:28:39] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\cb183e6782a4.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 21:29:03] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0f2f08f18625.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\0f2f08f18625.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:29:57] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\869ae2fbf14d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\869ae2fbf14d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:30:09] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\76c5819b13fa.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\76c5819b13fa.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:30:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\28ad4c86e4aa.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\28ad4c86e4aa.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:30:33] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\28184dee9123.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 21:30:46] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d57ac85a0bfd.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d57ac85a0bfd.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:31:10] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c8641a27fa4f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c8641a27fa4f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:31:22] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b34bfbae3072.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\b34bfbae3072.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 21:31:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\414caa7e647b.docx
+  Error: python-docx extracted empty text
+[2026-06-14 21:57:32] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f387e7b8fcd4.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f387e7b8fcd4.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 22:06:15] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\befce15f2b2a.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 22:22:33] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\86c003b5bbd3.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 22:45:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3f302d366b84.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\3f302d366b84.doc'
+[2026-06-14 22:46:06] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\621223c24165.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\621223c24165.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 22:46:48] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f828457e3d7b.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\f828457e3d7b.doc'
+[2026-06-14 22:46:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\593ea25a7679.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\593ea25a7679.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 22:53:59] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\42ee16a2420d.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 22:54:08] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\d087f120746a.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:00:23] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\5d26f7bb73c3.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:00:36] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\94c4a6f9ed8b.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 23:00:57] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\69c1954ca838.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:01:52] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\8aca128ab058.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:02:10] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\143984e241ba.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\143984e241ba.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:02:18] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d021025fcdc1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d021025fcdc1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:02:21] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\3d7c2433522e.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 23:03:19] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\323476fee158.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\323476fee158.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:03:23] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\622a3b9a9e46.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 23:04:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\20db53995bfe.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\20db53995bfe.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:04:38] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\5cdef7c927bb.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:05:51] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\93ee4c8008f0.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\93ee4c8008f0.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:05:54] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\554db73dc0d5.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 23:09:14] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\ddc22980fa7b.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:09:29] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\231b81dff242.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:09:45] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\dfd953f3a3cf.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:10:36] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\327e4bfa5099.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:10:45] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9e3eea001271.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\9e3eea001271.doc'
+[2026-06-14 23:10:48] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\ffc931f41508.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:10:57] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\94117047fe42.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:11:03] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ecba184384b4.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\ecba184384b4.doc'
+[2026-06-14 23:11:06] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\0f4c323d4e65.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:11:12] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2777d0827d6c.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\2777d0827d6c.doc'
+[2026-06-14 23:11:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\bb7c8a742a91.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\bb7c8a742a91.doc'
+[2026-06-14 23:11:18] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\56ae3da5de6f.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:11:22] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\182207859627.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:11:30] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e5d1628352a1.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\e5d1628352a1.doc'
+[2026-06-14 23:11:33] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ff6005280876.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\ff6005280876.doc'
+[2026-06-14 23:12:12] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\93b09973ac79.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\93b09973ac79.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:12:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c1eb183f18cb.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c1eb183f18cb.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:12:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ac614fac48d8.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\ac614fac48d8.doc'
+[2026-06-14 23:12:59] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\33a7474491a3.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\33a7474491a3.doc'
+[2026-06-14 23:13:02] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c463b29679f5.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\c463b29679f5.doc'
+[2026-06-14 23:13:46] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e2cc24ad7e1e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e2cc24ad7e1e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:13:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\bf09d2cd70d0.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\bf09d2cd70d0.doc'
+[2026-06-14 23:14:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\9c13d351f750.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\9c13d351f750.doc'
+[2026-06-14 23:14:53] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2ce8c66fa7fb.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2ce8c66fa7fb.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:15:08] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7fa52037a0d4.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\7fa52037a0d4.doc'
+[2026-06-14 23:15:11] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\981e7f483143.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\981e7f483143.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:15:26] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\756227976c28.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\756227976c28.doc'
+[2026-06-14 23:15:29] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d1f833b116e3.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\d1f833b116e3.doc'
+[2026-06-14 23:15:47] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ad720f9e6fa9.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\ad720f9e6fa9.doc'
+[2026-06-14 23:15:50] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\a3474fd63aac.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\a3474fd63aac.doc'
+[2026-06-14 23:15:56] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\77f313050cf6.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:17:09] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\340308b4a802.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:17:18] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\5fb1039b2526.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:27:06] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c451a884cb15.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\c451a884cb15.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:27:09] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\bf8126d52b3c.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:27:36] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b40749ef0743.docx
+  Error: python-docx extracted empty text
+[2026-06-14 23:27:39] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\04d64bd9d266.docx
+  Error: python-docx extracted empty text
+[2026-06-14 23:27:42] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f63c7c4b3a0d.docx
+  Error: python-docx extracted empty text
+[2026-06-14 23:27:48] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f5beacfc765d.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f5beacfc765d.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:28:10] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\1397d110c52a.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:28:34] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\8b32eac32136.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:28:37] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d9126b2b1da3.docx
+  Error: python-docx extracted empty text
+[2026-06-14 23:43:49] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b80b4a42ff1f.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\b80b4a42ff1f.doc'
+[2026-06-14 23:50:10] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2c6b01961696.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2c6b01961696.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:50:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5fd263ab9c96.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\5fd263ab9c96.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:50:37] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\8c4bf179d016.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\8c4bf179d016.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:51:00] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6d3f7ffa6e1e.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\6d3f7ffa6e1e.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:55:22] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\2239a48c5cdc.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 23:55:54] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\e02ae4cbaa8b.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-14 23:56:40] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4f96e434d3d6.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\4f96e434d3d6.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-14 23:57:01] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\3ebf489a9040.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-14 23:57:48] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\41563ef46d4c.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\41563ef46d4c.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 00:05:04] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d95f88fedcb1.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d95f88fedcb1.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 00:05:10] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\1de52242aecf.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-15 00:05:32] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\ad2cf3f7c257.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\ad2cf3f7c257.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 00:05:34] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\1882a36578f5.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-15 00:05:40] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\87425144411a.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\87425144411a.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 00:05:44] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\3cc28fb6fa21.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-15 00:12:22] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3a1ed7a905e0.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3a1ed7a905e0.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 00:47:57] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\94c920b34753.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\94c920b34753.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 00:47:59] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\e1e4070bc9b3.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\e1e4070bc9b3.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 00:48:01] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\10eb805966ec.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\10eb805966ec.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 00:59:42] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\d74e56121d99.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\d74e56121d99.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 00:59:44] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2c8906533bd2.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2c8906533bd2.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 00:59:46] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\fbce88ace15c.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-15 00:59:48] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\6b2568635b02.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-15 00:59:50] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\5492c7049998.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-15 00:59:54] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\23c0c5cbe5e1.doc
+  Error: python-docx error: Package not found at 'E:\Nankai-University-Information-Retrieval-System\data\documents\23c0c5cbe5e1.doc'
+[2026-06-15 01:02:44] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\f1032b878810.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\f1032b878810.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 01:14:35] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\c99993cefe5b.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-15 01:14:37] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\ec418af0fe16.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-15 01:27:18] [XLSX] E:\Nankai-University-Information-Retrieval-System\data\documents\d8d9d5020b6b.xls
+  Error: openpyxl error: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+[2026-06-15 01:55:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\77f2d23dd912.docx
+  Error: python-docx extracted empty text
+[2026-06-15 07:18:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6576c0754d87.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\6576c0754d87.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 07:18:16] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2890033628e4.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\2890033628e4.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 07:20:09] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\f478ef741c9a.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-15 07:35:15] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\248bc7bbfbe0.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-15 07:35:16] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\b4e6dd64dcee.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-15 07:45:20] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\7acd3d9df84f.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\7acd3d9df84f.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 07:46:17] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\da17613f1558.docx
+  Error: python-docx extracted empty text
+[2026-06-15 08:02:54] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\da0d5777092b.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-15 08:10:14] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\1c846c1bbfee.doc
+  Error: python-docx error: "no relationship of type 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument' in collection"
+[2026-06-15 08:28:24] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3f27ddaa260b.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3f27ddaa260b.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 08:50:37] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\2766f58643be.doc
+  Error: python-docx error: "no relationship of type 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument' in collection"
+[2026-06-15 08:55:04] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\deb819a75620.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-15 08:59:49] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\0002da4b53ab.docx
+  Error: python-docx extracted empty text
+[2026-06-15 08:59:50] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c4f2e59234d8.docx
+  Error: python-docx extracted empty text
+[2026-06-15 08:59:51] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c7076aa6dd1c.docx
+  Error: python-docx extracted empty text
+[2026-06-15 08:59:52] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\828eee2060c9.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4d8848270583.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:15] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\bd03ca60e9fb.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:16] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\138e96976c58.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:27] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\5147756ebd51.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:28] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\112615bf9be6.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:30] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\c0b3f6625fbb.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:31] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3d7578e2becc.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:33] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4a55a2f448ca.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\09a99f669ae0.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:34] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\4257feb2b6de.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:04:35] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\687d530c5896.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:08:53] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\7b835ee43147.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-15 09:08:54] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\b5eb8cad0e20.docx
+  Error: python-docx extracted empty text
+[2026-06-15 09:30:18] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\37dd7f23958c.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-15 09:36:13] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\6e4d0cce35a2.doc
+  Error: python-docx error: "no relationship of type 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument' in collection"
+[2026-06-15 10:22:53] [PDF] E:\Nankai-University-Information-Retrieval-System\data\documents\ea83dc145cff.pdf
+  Error: PyMuPDF extracted empty text
+[2026-06-15 10:25:45] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\3e0804e2d398.doc
+  Error: python-docx error: file 'E:\Nankai-University-Information-Retrieval-System\data\documents\3e0804e2d398.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'
+[2026-06-15 10:29:04] [DOCX] E:\Nankai-University-Information-Retrieval-System\data\documents\191984aa9c51.docx
+  Error: python-docx extracted empty text
