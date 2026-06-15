@@ -9,7 +9,7 @@
 ## 功能清单
 
 ### 核心功能
-- [x] **多源网站爬取** — 支持 30+ 个南开大学网站，Round-Robin 均衡爬取（30%动态配额）
+- [x] **多源网站爬取** — 覆盖 36 个南开大学网站，Round-Robin 均衡爬取（30%动态配额）
 - [x] **网页解析** — HTML 标题/正文/时间提取，多种解析策略
 - [x] **文档解析** — PDF (PyMuPDF)、DOCX (python-docx)、XLSX (openpyxl)，MuPDF C层 stderr 通过 os.dup2() 抑制
 - [x] **中文分词** — jieba 分词 + 停用词过滤
